@@ -1,0 +1,40 @@
+p{
+    text-align: center;
+    margin: 450px auto;
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+
+/* a:nth-child(1)::after{
+    content: ' /';
+}
+
+a:nth-child(2)::after{
+    content: ' /';
+}
+
+a:nth-child(1)::before{
+    content: ' :: ';
+} */
+
+/* atau bisa juga */
+
+a::after{
+    content: ' /';
+}
+
+a:first-child::before{
+    content: ' :: ';
+}
+
+a:last-child::after{
+    content: '';
+}

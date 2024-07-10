@@ -1,0 +1,28 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+.title1{
+    text-align: center;
+    margin: 500px auto;
+}
+/* menggunakan size asli dari gambar */
+.title1::before{
+    content: url(../img/48.png)' ';
+}
+
+.title2{
+    
+    margin-top: -400px;
+}
+
+.title2::before{
+    content: '';
+    display: block;
+    background: url(../img/128.png) no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 8px 2px 0px 5px;
+}

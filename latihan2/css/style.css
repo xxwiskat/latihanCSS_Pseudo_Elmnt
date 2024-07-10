@@ -1,0 +1,27 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: slategray;
+    margin: 50px auto;
+    position: relative;
+}
+
+div::before,
+div::after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+div:before{
+    background-color: orange;
+    top: -25px;
+    left: -25px;
+}
+
+div:after{
+    background-color: red;
+    bottom: -25px;
+    right: -25px;
+}
